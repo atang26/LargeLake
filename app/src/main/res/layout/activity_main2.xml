@@ -1,0 +1,179 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.student.largelake.MainActivity2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="List of Lakes in Canada"
+        android:id="@+id/textViewTitle2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Superior"
+        android:id="@+id/buttonSuperior"
+        android:layout_below="@+id/textViewTitle2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="34dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Huron"
+        android:id="@+id/buttonHuron"
+        android:layout_alignBottom="@+id/buttonSuperior"
+        android:layout_toRightOf="@+id/buttonSuperior"
+        android:layout_toEndOf="@+id/buttonSuperior" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Great Bear"
+        android:id="@+id/buttonGreatBear"
+        android:layout_alignTop="@+id/buttonHuron"
+        android:layout_toRightOf="@+id/buttonHuron"
+        android:layout_toEndOf="@+id/buttonHuron" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Great Slave"
+        android:id="@+id/buttonGreatSlave"
+        android:layout_below="@+id/buttonSuperior"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Erie"
+        android:id="@+id/buttonErie"
+        android:layout_alignTop="@+id/buttonGreatSlave"
+        android:layout_toRightOf="@+id/buttonGreatSlave"
+        android:layout_toEndOf="@+id/buttonGreatSlave" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Winnipeg"
+        android:id="@+id/buttonWinnipeg"
+        android:layout_below="@+id/buttonGreatBear"
+        android:layout_toRightOf="@+id/buttonErie"
+        android:layout_toEndOf="@+id/buttonErie" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ontario"
+        android:id="@+id/buttonOntario"
+        android:layout_below="@+id/buttonGreatBear"
+        android:layout_toRightOf="@+id/buttonWinnipeg"
+        android:layout_toEndOf="@+id/buttonWinnipeg" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Athabasca"
+        android:id="@+id/buttonAthabasca"
+        android:layout_below="@+id/buttonGreatSlave"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reindeer"
+        android:id="@+id/buttonReindeer"
+        android:layout_alignBottom="@+id/buttonAthabasca"
+        android:layout_toRightOf="@+id/buttonAthabasca"
+        android:layout_toEndOf="@+id/buttonAthabasca" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nettilling"
+        android:id="@+id/buttonNettilling"
+        android:layout_below="@+id/buttonWinnipeg"
+        android:layout_toRightOf="@+id/buttonReindeer"
+        android:layout_toEndOf="@+id/buttonReindeer" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Winnipegosis"
+        android:id="@+id/buttonWinnipegosis"
+        android:layout_below="@+id/buttonAthabasca"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nipigon"
+        android:id="@+id/buttonNipigon"
+        android:layout_below="@+id/buttonReindeer"
+        android:layout_toRightOf="@+id/buttonWinnipegosis"
+        android:layout_toEndOf="@+id/buttonWinnipegosis" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Manitoba"
+        android:id="@+id/buttonManitoba"
+        android:layout_alignBottom="@+id/buttonNipigon"
+        android:layout_toRightOf="@+id/buttonNipigon"
+        android:layout_toEndOf="@+id/buttonNipigon" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lake of the Woods"
+        android:id="@+id/buttonLakeWoods"
+        android:layout_below="@+id/buttonWinnipegosis"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dubawnt"
+        android:id="@+id/buttonDubawnt"
+        android:layout_below="@+id/buttonNipigon"
+        android:layout_toRightOf="@+id/buttonLakeWoods"
+        android:layout_toEndOf="@+id/buttonLakeWoods" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:src="@drawable/canadalakes"
+        android:layout_below="@+id/buttonLakeWoods"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

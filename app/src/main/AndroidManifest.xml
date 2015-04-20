@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.student.largelake" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity2"
+            android:label="@string/title_activity_main_activity2" >
+        </activity>
+        <activity
+            android:name=".MainActivityErie"
+            android:label="@string/title_activity_main_activity_erie" >
+        </activity>
+        <activity
+            android:name=".MainActivityErieWind"
+            android:label="@string/title_activity_main_activity_erie_wind" >
+        </activity>
+        <activity
+            android:name=".MainActivityErieEvaporate"
+            android:label="@string/title_activity_main_activity_erie_evaporate" >
+        </activity>
+        <activity
+            android:name=".MainActivityErieStorm"
+            android:label="@string/title_activity_main_activity_erie_storm" >
+        </activity>
+        <activity
+            android:name=".MainActivityUngava"
+            android:label="@string/title_activity_main_activity_ungava" >
+        </activity>
+        <activity
+            android:name=".MainActivitySuperior"
+            android:label="@string/title_activity_main_activity_superior" >
+        </activity>
+        <activity
+            android:name=".MainActivitySuperiorRain"
+            android:label="@string/title_activity_main_activity_superior_rain" >
+        </activity>
+        <activity
+            android:name=".MainActivitySuperiorSnowfall"
+            android:label="@string/title_activity_main_activity_superior_snowfall" >
+        </activity>
+        <activity
+            android:name=".MainActivitySuperiorWarming"
+            android:label="@string/title_activity_main_activity_superior_warming" >
+        </activity>
+        <activity
+            android:name=".MainActivityHuron"
+            android:label="@string/title_activity_main_activity_huron" >
+        </activity>
+        <activity
+            android:name=".MainActivityHuronWind"
+            android:label="@string/title_activity_main_activity_huron_wind" >
+        </activity>
+        <activity
+            android:name=".MainActivityHuronIcecover"
+            android:label="@string/title_activity_main_activity_huron_icecover" >
+        </activity>
+        <activity
+            android:name=".MainActivityGreatBear"
+            android:label="@string/title_activity_main_activity_great_bear" >
+        </activity>
+        <activity
+            android:name=".MainActivityGreatBearWarming"
+            android:label="@string/title_activity_main_activity_great_bear_warming" >
+        </activity>
+        <activity
+            android:name=".MainActivityGreatSlave"
+            android:label="@string/title_activity_main_activity_great_slave" >
+        </activity>
+        <activity
+            android:name=".MainActivityGreatSlaveEvaporate"
+            android:label="@string/title_activity_main_activity_great_slave_evaporate" >
+        </activity>
+        <activity
+            android:name=".MainActivityWinnipeg"
+            android:label="@string/title_activity_main_activity_winnipeg" >
+        </activity>
+        <activity
+            android:name=".MainActivityOntario"
+            android:label="@string/title_activity_main_activity_ontario" >
+        </activity>
+        <activity
+            android:name=".MainActivityOntarioRainfall"
+            android:label="@string/title_activity_main_activity_ontario_rainfall" >
+        </activity>
+        <activity
+            android:name=".MainActivityAthabasca"
+            android:label="@string/title_activity_main_activity_athabasca" >
+        </activity>
+        <activity
+            android:name=".MainActivityReindeer"
+            android:label="@string/title_activity_main_activity_reindeer" >
+        </activity>
+        <activity
+            android:name=".MainActivityNettilling"
+            android:label="@string/title_activity_main_activity_nettilling" >
+        </activity>
+        <activity
+            android:name=".MainActivityWinnipegosis"
+            android:label="@string/title_activity_main_activity_winnipegosis" >
+        </activity>
+        <activity
+            android:name=".MainActivityNipigon"
+            android:label="@string/title_activity_main_activity_nipigon" >
+        </activity>
+        <activity
+            android:name=".MainActivityManitoba"
+            android:label="@string/title_activity_main_activity_manitoba" >
+        </activity>
+        <activity
+            android:name=".MainActivityLakeWoods"
+            android:label="@string/title_activity_main_activity_lake_woods" >
+        </activity>
+        <activity
+            android:name=".MainActivityDubawnt"
+            android:label="@string/title_activity_main_activity_dubawnt" >
+        </activity>
+    </application>
+
+</manifest>

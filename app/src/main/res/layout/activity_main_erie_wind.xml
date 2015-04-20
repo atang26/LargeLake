@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.student.largelake.MainActivityErieWind">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Winds (Lake Erie)"
+        android:id="@+id/textViewTitleErieWind"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageViewErieWind"
+        android:src="@drawable/lakeeriewind"
+        android:layout_marginBottom="176dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:text="Prolonged Wind:" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Prolonged Wind:"
+        android:id="@+id/textViewWindErieTitle"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/textViewWindErieContent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Lake Erie&apos;s water levels can be affected by prolonged wind “set-up” and this can cause one side of the lake to have much higher water levels than the other end."
+        android:id="@+id/textViewWindErieContent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/imageViewErieWind"
+        android:layout_alignEnd="@+id/imageViewErieWind"
+        android:layout_marginBottom="144dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Wind-Induced Seiches:"
+        android:id="@+id/textViewWindErieTitle2"
+        android:layout_marginTop="65dp"
+        android:layout_below="@+id/textViewWindErieTitle"
+        android:layout_alignLeft="@+id/textViewWindErieTitle"
+        android:layout_alignStart="@+id/textViewWindErieTitle" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="This type of wind can cause substantial rapid fluctuations in Lake Erie&apos;s levels, resulting in flooding and other possible water management problems."
+        android:id="@+id/textViewErieContent2"
+        android:layout_below="@+id/textViewWindErieTitle2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

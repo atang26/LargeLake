@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.student.largelake.MainActivityNettilling">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Nettilling Lake"
+        android:id="@+id/textViewTitleErie"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Summary:"
+        android:id="@+id/textView43"
+        android:layout_above="@+id/textView44"
+        android:layout_toLeftOf="@+id/textViewTitleErie"
+        android:layout_toStartOf="@+id/textViewTitleErie" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Being located in a generally cold area. Nettilling is not as popularity visited area and not inhabited by much animal life."
+        android:id="@+id/textView44"
+        android:layout_alignBottom="@+id/imageView21"
+        android:layout_alignLeft="@+id/textView45"
+        android:layout_alignStart="@+id/textView45" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="(No Major Water Level Causes)"
+        android:id="@+id/textView45"
+        android:layout_below="@+id/textView44"
+        android:layout_alignLeft="@+id/textView43"
+        android:layout_alignStart="@+id/textView43"
+        android:layout_marginTop="36dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView21"
+        android:src="@drawable/lakenettilling"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/textView44"
+        android:layout_alignEnd="@+id/textView44" />
+
+</RelativeLayout>
