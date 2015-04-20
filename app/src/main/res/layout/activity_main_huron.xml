@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Lake Huron"
-        android:id="@+id/textViewTitleSuperior"
+        android:id="@+id/textViewTitleHuron"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="25dp" />
@@ -31,10 +31,10 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Summary:"
-        android:id="@+id/textView12"
+        android:id="@+id/textViewHuron1"
         android:layout_alignBottom="@+id/imageView9"
-        android:layout_toLeftOf="@+id/textViewTitleSuperior"
-        android:layout_toStartOf="@+id/textViewTitleSuperior"
+        android:layout_toLeftOf="@+id/textViewTitleHuron"
+        android:layout_toStartOf="@+id/textViewTitleHuron"
         android:layout_marginBottom="36dp" />
 
     <TextView
@@ -42,8 +42,8 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="Lake Huron is the third largest of the large lakes. It is characterized by its rocky shores and shallow, sandy beaches."
-        android:id="@+id/textView13"
-        android:layout_below="@+id/textView12"
+        android:id="@+id/textViewHuron2"
+        android:layout_below="@+id/textViewHuron1"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="-35dp" />
@@ -53,27 +53,27 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Water Level Causes:"
-        android:id="@+id/textView14"
-        android:layout_below="@+id/textView13"
-        android:layout_alignLeft="@+id/textView12"
-        android:layout_alignStart="@+id/textView12" />
+        android:id="@+id/textViewHuron3"
+        android:layout_below="@+id/textViewHuron2"
+        android:layout_alignLeft="@+id/textViewHuron1"
+        android:layout_alignStart="@+id/textViewHuron1" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ice Covers"
-        android:id="@+id/button"
-        android:layout_below="@+id/textView14"
-        android:layout_toRightOf="@+id/button2"
-        android:layout_toEndOf="@+id/button2" />
+        android:id="@+id/buttonIceCoverHuron"
+        android:layout_below="@+id/textViewHuron3"
+        android:layout_toRightOf="@+id/buttonWindHuron"
+        android:layout_toEndOf="@+id/buttonWindHuron" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Winds"
-        android:id="@+id/button2"
-        android:layout_below="@+id/textView14"
+        android:id="@+id/buttonWindHuron"
+        android:layout_below="@+id/textViewHuron3"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 

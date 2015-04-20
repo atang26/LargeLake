@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Ice Covers (Lake Huron)"
-        android:id="@+id/textViewTitleSuperior"
+        android:id="@+id/textViewTitleHuronIcecover"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="25dp" />
@@ -21,8 +21,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/imageView11"
         android:src="@drawable/lakehuronicecover"
-        android:layout_marginBottom="162dp"
-        android:layout_alignParentBottom="true"
+        android:layout_alignTop="@+id/textViewTitleHuronIcecover"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 

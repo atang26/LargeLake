@@ -21,7 +21,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/imageView5"
         android:src="@drawable/lakesuperior"
-        android:layout_above="@+id/textView5"
+        android:layout_above="@+id/textViewSuperior3"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginBottom="28dp" />
@@ -31,8 +31,8 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Summary:"
-        android:id="@+id/textView3"
-        android:layout_above="@+id/textView4"
+        android:id="@+id/textViewSuperior1"
+        android:layout_above="@+id/textViewSuperior2"
         android:layout_toLeftOf="@+id/textViewTitleSuperior"
         android:layout_toStartOf="@+id/textViewTitleSuperior" />
 
@@ -41,8 +41,8 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="Lake Superior is known for being the largest of the large lakes containing almost 3,000 cubic miles of water. It have the coldest water temperature of the large lakes. It contain poor soils and is surrounded by dense forests."
-        android:id="@+id/textView4"
-        android:layout_above="@+id/textView5"
+        android:id="@+id/textViewSuperior2"
+        android:layout_above="@+id/textViewSuperior3"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
@@ -81,9 +81,9 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Water Level Causes:"
-        android:id="@+id/textView5"
+        android:id="@+id/textViewSuperior3"
         android:layout_above="@+id/buttonRainSuperior"
-        android:layout_alignLeft="@+id/textView3"
-        android:layout_alignStart="@+id/textView3" />
+        android:layout_alignLeft="@+id/textViewSuperior1"
+        android:layout_alignStart="@+id/textViewSuperior1" />
 
 </RelativeLayout>

@@ -21,31 +21,31 @@
         android:layout_height="wrap_content"
         android:id="@+id/imageView8"
         android:src="@drawable/lakesuperiorwarming"
+        android:layout_marginBottom="69dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginBottom="144dp" />
+        android:layout_alignParentEnd="true" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Summary:"
-        android:id="@+id/textView10"
+        android:id="@+id/textViewSuperiorWarming1"
+        android:layout_marginBottom="47dp"
         android:layout_alignBottom="@+id/imageView8"
         android:layout_alignLeft="@+id/textViewTitleSuperiorWarming"
-        android:layout_alignStart="@+id/textViewTitleSuperiorWarming"
-        android:layout_marginBottom="35dp" />
+        android:layout_alignStart="@+id/textViewTitleSuperiorWarming" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="As climate warming continues, the amount of ice cover created over the winter is decreasing allowing more water in the lake to evaporate. This can result in a decrease in the water levels of effected lakes."
-        android:id="@+id/textView11"
-        android:layout_alignTop="@+id/textView10"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="27dp" />
+        android:id="@+id/textViewSuperiorWarming2"
+        android:layout_marginTop="32dp"
+        android:layout_alignTop="@+id/textViewSuperiorWarming1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>

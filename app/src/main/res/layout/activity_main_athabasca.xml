@@ -30,7 +30,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Summary:"
-        android:id="@+id/textView37"
+        android:id="@+id/textViewAthabasca1"
         android:layout_marginBottom="55dp"
         android:layout_alignBottom="@+id/imageView19"
         android:layout_toLeftOf="@+id/textViewTitleErie"
@@ -41,7 +41,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="Lake Athabasca has its water fed by the Athabasca and Peace rivers and drained by the Slave River. Fishing is a common activity in this area."
-        android:id="@+id/textView38"
+        android:id="@+id/textViewAthabasca2"
         android:layout_alignBottom="@+id/imageView19"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
@@ -51,10 +51,10 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="(No Major Water Level Causes)"
-        android:id="@+id/textView39"
+        android:id="@+id/textViewAthabasca3"
         android:layout_marginTop="39dp"
-        android:layout_below="@+id/textView38"
-        android:layout_alignLeft="@+id/textView37"
-        android:layout_alignStart="@+id/textView37" />
+        android:layout_below="@+id/textViewAthabasca2"
+        android:layout_alignLeft="@+id/textViewAthabasca1"
+        android:layout_alignStart="@+id/textViewAthabasca1" />
 
 </RelativeLayout>

@@ -21,20 +21,20 @@
         android:layout_height="wrap_content"
         android:id="@+id/imageView6"
         android:src="@drawable/lakesuperiorrain"
-        android:layout_marginBottom="162dp"
-        android:layout_alignParentBottom="true"
+        android:layout_alignBottom="@+id/textViewSuperiorRain2"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="29dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Summary:"
-        android:id="@+id/textView6"
+        android:id="@+id/textViewSuperiorRain1"
         android:layout_marginLeft="30dp"
         android:layout_marginStart="30dp"
-        android:layout_above="@+id/textView7"
+        android:layout_above="@+id/textViewSuperiorRain2"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
@@ -43,10 +43,10 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="Rain fallen over Lake Superior over the last couple of years has resulted in a slow incremental increase in its water level. This effect on the waters of Lake Superior will likely remain the same in the later years to come."
-        android:id="@+id/textView7"
+        android:id="@+id/textViewSuperiorRain2"
+        android:layout_marginBottom="94dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="124dp" />
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>

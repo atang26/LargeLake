@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Great Slave Lake"
-        android:id="@+id/textViewTitleSuperior"
+        android:id="@+id/textViewTitleGreatSlave"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="25dp" />
@@ -31,17 +31,17 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Summary:"
-        android:id="@+id/textView24"
-        android:layout_above="@+id/textView25"
-        android:layout_toLeftOf="@+id/textViewTitleSuperior"
-        android:layout_toStartOf="@+id/textViewTitleSuperior" />
+        android:id="@+id/textViewGreatSlave1"
+        android:layout_above="@+id/textViewGreatSlave2"
+        android:layout_toLeftOf="@+id/textViewTitleGreatSlave"
+        android:layout_toStartOf="@+id/textViewTitleGreatSlave" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="Great Slave Lake is the deepest of the large lakes. This lake is well known for being a great site of fishing and services provided in the area for it."
-        android:id="@+id/textView25"
+        android:id="@+id/textViewGreatSlave2"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
@@ -52,10 +52,10 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Water Level Causes:"
-        android:id="@+id/textView26"
-        android:layout_alignTop="@+id/textView25"
-        android:layout_alignLeft="@+id/textView24"
-        android:layout_alignStart="@+id/textView24"
+        android:id="@+id/textViewGreatSlave3"
+        android:layout_alignTop="@+id/textViewGreatSlave2"
+        android:layout_alignLeft="@+id/textViewGreatSlave1"
+        android:layout_alignStart="@+id/textViewGreatSlave1"
         android:layout_marginTop="58dp" />
 
     <Button
@@ -63,8 +63,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Evaporation"
-        android:id="@+id/button4"
-        android:layout_below="@+id/textView26"
+        android:id="@+id/buttonEvaporateGreatSlave"
+        android:layout_below="@+id/textViewGreatSlave3"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 

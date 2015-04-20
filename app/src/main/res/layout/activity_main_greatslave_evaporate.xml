@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Evaporation (Great Slave Lake)"
-        android:id="@+id/textViewTitleSuperior"
+        android:id="@+id/textViewTitleGreatSlaveEvaporate"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="25dp" />
@@ -31,21 +31,21 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Summary:"
-        android:id="@+id/textView27"
+        android:id="@+id/textViewGreatSlaveEvaporate1"
+        android:layout_marginBottom="37dp"
         android:layout_alignBottom="@+id/imageView15"
-        android:layout_alignLeft="@+id/textViewTitleSuperior"
-        android:layout_alignStart="@+id/textViewTitleSuperior"
-        android:layout_marginBottom="49dp" />
+        android:layout_alignLeft="@+id/textViewTitleGreatSlaveEvaporate"
+        android:layout_alignStart="@+id/textViewTitleGreatSlaveEvaporate" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="Continuing climate changing leaning toward a warming trend have resulted in increase evaporation over the years which meant that there will be less water levels overall for the lake."
-        android:id="@+id/textView28"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="370dp" />
+        android:id="@+id/textViewEvaporateGreatSlave2"
+        android:layout_alignTop="@+id/textViewGreatSlaveEvaporate1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="26dp" />
 
 </RelativeLayout>

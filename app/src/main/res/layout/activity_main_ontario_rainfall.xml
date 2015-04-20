@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Lacking Rainfall (Lake Ontario)"
-        android:id="@+id/textViewTitleSuperior"
+        android:id="@+id/textViewTitleOntarioRainfall"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="25dp" />
@@ -30,9 +30,9 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Summary:"
-        android:id="@+id/textView35"
-        android:layout_above="@+id/textView36"
-        android:layout_alignLeft="@+id/textViewTitleSuperior"
+        android:id="@+id/textViewRainfallOntario1"
+        android:layout_above="@+id/textViewRainfallOntario2"
+        android:layout_alignLeft="@+id/textViewTitleOntarioRainfall"
         android:layout_alignStart="@+id/textViewTitleSuperior" />
 
     <TextView
@@ -40,7 +40,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="Lack of rainfall in Lake Ontario has result in lower water levels in general over the years."
-        android:id="@+id/textView36"
+        android:id="@+id/textViewRainfallOntario2"
         android:layout_alignBottom="@+id/imageView18"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />

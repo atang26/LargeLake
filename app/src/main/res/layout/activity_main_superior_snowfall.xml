@@ -21,30 +21,30 @@
         android:layout_height="wrap_content"
         android:id="@+id/imageView7"
         android:src="@drawable/lakesuperiorsnowfall"
-        android:layout_below="@+id/textViewTitleSuperiorRain"
-        android:layout_alignRight="@+id/textViewTitleSuperiorSnowfall"
-        android:layout_alignEnd="@+id/textViewTitleSuperiorSnowfall" />
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/textViewTitleSuperiorSnowfall"
+        android:layout_alignStart="@+id/textViewTitleSuperiorSnowfall" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Summary:"
-        android:id="@+id/textView8"
+        android:id="@+id/textViewSuperiorSnowfall1"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
         android:layout_below="@+id/imageView7"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="26dp"
-        android:layout_marginStart="26dp" />
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Lake Superior in the winter at often times can be hit by snowfalls. The occurrence of snowfalls can result in a drop in water level for the lake."
-        android:id="@+id/textView9"
-        android:layout_below="@+id/textView8"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:text="Lake Superior in the winter at times be hit by snowfalls. The occurrence results in a drop in water level."
+        android:id="@+id/textViewSuperiorSnowfall2"
+        android:layout_below="@+id/textViewSuperiorSnowfall1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>

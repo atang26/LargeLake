@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Great Bear Lake"
-        android:id="@+id/textViewTitleSuperior"
+        android:id="@+id/textViewTitleGreatBear"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="25dp" />
@@ -30,18 +30,18 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Summary:"
-        android:id="@+id/textView19"
+        android:id="@+id/textViewGreatBear1"
         android:layout_marginBottom="40dp"
-        android:layout_above="@+id/textView20"
-        android:layout_toLeftOf="@+id/textViewTitleSuperior"
-        android:layout_toStartOf="@+id/textViewTitleSuperior" />
+        android:layout_above="@+id/textViewGreatBear2"
+        android:layout_toLeftOf="@+id/textViewTitleGreatBear"
+        android:layout_toStartOf="@+id/textViewTitleGreatBear" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="Great Bear Lake is the fourth largest of the large lakes. Lodges located around the area provides visitors the opportunity to go fishing or hunting."
-        android:id="@+id/textView20"
+        android:id="@+id/textViewGreatBear2"
         android:layout_below="@+id/imageView12"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
@@ -52,10 +52,10 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Water Level Causes:"
-        android:id="@+id/textView21"
-        android:layout_below="@+id/textView20"
-        android:layout_alignLeft="@+id/textView19"
-        android:layout_alignStart="@+id/textView19"
+        android:id="@+id/textViewGreatBear3"
+        android:layout_below="@+id/textViewGreatBear2"
+        android:layout_alignLeft="@+id/textViewGreatBear1"
+        android:layout_alignStart="@+id/textViewGreatBear1"
         android:layout_marginTop="27dp" />
 
     <Button
@@ -63,8 +63,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Climate Warming"
-        android:id="@+id/button3"
-        android:layout_below="@+id/textView21"
+        android:id="@+id/buttonWarmingGreatBear"
+        android:layout_below="@+id/textViewGreatBear3"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 

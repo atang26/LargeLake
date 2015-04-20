@@ -21,10 +21,9 @@
         android:layout_height="wrap_content"
         android:id="@+id/imageView13"
         android:src="@drawable/lakesgreatbearwarming"
-        android:layout_alignParentBottom="true"
+        android:layout_alignTop="@+id/textViewTitleGreatBearWarming"
         android:layout_alignLeft="@+id/textViewTitleGreatBearWarming"
-        android:layout_alignStart="@+id/textViewTitleGreatBearWarming"
-        android:layout_marginBottom="141dp" />
+        android:layout_alignStart="@+id/textViewTitleGreatBearWarming" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -32,12 +31,12 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Summary:"
         android:id="@+id/textView22"
-        android:layout_alignBottom="@+id/imageView13"
-        android:layout_alignLeft="@+id/imageView13"
-        android:layout_alignStart="@+id/imageView13"
         android:layout_marginLeft="26dp"
         android:layout_marginStart="26dp"
-        android:layout_marginBottom="26dp" />
+        android:layout_marginBottom="47dp"
+        android:layout_alignBottom="@+id/imageView13"
+        android:layout_alignLeft="@+id/imageView13"
+        android:layout_alignStart="@+id/imageView13" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -45,9 +44,8 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="The slowly inclining temperature increase has resulted in the complete melting of low-level snow being mid-level snow to be the next. This disappearance has caused in a drop in the water levels of Great Bear Lake."
         android:id="@+id/textView23"
-        android:layout_below="@+id/textView22"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="-25dp" />
+        android:layout_marginTop="28dp"
+        android:layout_alignTop="@+id/textView22"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

@@ -21,33 +21,30 @@
         android:layout_height="wrap_content"
         android:id="@+id/imageView10"
         android:src="@drawable/lakehuronwind"
-        android:layout_marginBottom="148dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_below="@+id/textViewTitleHuronWind"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Summary:"
-        android:id="@+id/textView15"
-        android:layout_marginLeft="35dp"
-        android:layout_marginStart="35dp"
-        android:layout_alignBottom="@+id/imageView10"
+        android:id="@+id/textViewHuronWind1"
+        android:layout_marginLeft="36dp"
+        android:layout_marginStart="36dp"
+        android:layout_above="@+id/textViewHuronWind2"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="32dp" />
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="A strong wind can have an influence on Lake Huron&apos;s waters. The water levels will tend to higher in the direction the wind is blowing while the opposite will be lower."
-        android:id="@+id/textView16"
-        android:layout_alignTop="@+id/textView15"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="26dp" />
+        android:id="@+id/textViewHuronWind2"
+        android:layout_below="@+id/imageView10"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>

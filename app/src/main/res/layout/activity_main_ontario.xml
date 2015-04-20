@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Lake Ontario"
-        android:id="@+id/textViewTitleSuperior"
+        android:id="@+id/textViewTitleOntario"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="25dp" />
@@ -21,7 +21,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/imageView17"
         android:src="@drawable/lakeontario"
-        android:layout_above="@+id/textView34"
+        android:layout_above="@+id/textViewOntario3"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginBottom="45dp" />
@@ -31,18 +31,18 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Summary:"
-        android:id="@+id/textView32"
-        android:layout_alignBottom="@+id/imageView17"
-        android:layout_toLeftOf="@+id/textViewTitleSuperior"
-        android:layout_toStartOf="@+id/textViewTitleSuperior" />
+        android:id="@+id/textViewOntario1"
+        android:layout_above="@+id/textViewOntario2"
+        android:layout_toLeftOf="@+id/textViewTitleOntario"
+        android:layout_toStartOf="@+id/textViewTitleOntario" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="Lake Ontario is similar to Lake Erie in length. Parts of New York, Pennsylvania and Ontario are covered by its drainage basin."
-        android:id="@+id/textView33"
-        android:layout_below="@+id/textView32"
+        android:id="@+id/textViewOntario2"
+        android:layout_above="@+id/textViewOntario3"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
@@ -51,17 +51,17 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Water Level Causes:"
-        android:id="@+id/textView34"
-        android:layout_above="@+id/button5"
-        android:layout_alignLeft="@+id/textView32"
-        android:layout_alignStart="@+id/textView32" />
+        android:id="@+id/textViewOntario3"
+        android:layout_above="@+id/buttonRainfallOntario"
+        android:layout_alignLeft="@+id/textViewOntario1"
+        android:layout_alignStart="@+id/textViewOntario1" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Lacking Rainfall"
-        android:id="@+id/button5"
+        android:id="@+id/buttonRainfallOntario"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
